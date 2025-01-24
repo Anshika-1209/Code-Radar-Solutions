@@ -4,7 +4,7 @@ int main()
 char name[100];
 int age;
 char hobby[100];
-scanf("%s %d\n",name,&age);
+scanf("%s %d",name,&age);
 getchar();
 fgets(hobby,sizeof(hobby),stdin);
 printf("Name: %s\n",name);
