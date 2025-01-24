@@ -1,11 +1,14 @@
 #include <stdio.h>
 int main()
 {
-char name[100],hobby[100];
+char name[100];
 int age;
+hobby[100];
 scanf("%s %d\n",name,&age);
 getchar();
 fgets(hobby,sizeof(hobby),stdin);
-printf("%s %d\nName:%s\nAge:%d\nHobby:%s",name,age,name,age,hobby);
+printf("Name: %s\n",name);
+printf("Age: %d\n",age);
+printf("Hobby: %s",hobby);
 return 0;
 }
