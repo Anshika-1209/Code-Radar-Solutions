@@ -3,7 +3,7 @@ int main()
 {
 char name[100];
 int age;
- char hobby[100];
+char hobby[100];
 scanf("%s %d\n",name,&age);
 getchar();
 fgets(hobby,sizeof(hobby),stdin);
