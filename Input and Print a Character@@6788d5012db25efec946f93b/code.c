@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include <c.type.h>
 int main()
 {
     char ch;
     scanf("%c",&ch);
-    printf("%c\n",ch);
+    ch=tolower(ch);
+    printf("You entered:%c\n",ch);
     return 0;
 }
