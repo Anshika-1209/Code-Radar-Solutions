@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    char ch;
-    scanf("%s",&ch);
-    printf("You entered :%s" , ch);
+    char str[100];
+    printf("Enter a string:");
+    fgets(str,sizeof(str),stdin);
+    printf("You entered: %s\n",str);
 }
