@@ -2,7 +2,7 @@
 int main()
 {
     int a;
-    scanf("%d",&a);
+    scanf("%d%d%d%d%d%d%d",&a);
     if(a=1)
     {
         printf("Monday");
