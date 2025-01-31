@@ -8,15 +8,15 @@ int main()
     {
     if(isupper(ch))
     {
-        printf("Uppercase");
+        printf("Uppercase\n");
     }
     else if (islower(ch))
     {
-        printf("Lowercase");
+        printf("Lowercase\n");
     }
     else
     {
-        printf("Not an alphabet");
+        printf("Not an alphabet\n");
     }
 
 }
