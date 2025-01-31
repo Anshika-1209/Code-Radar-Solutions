@@ -18,6 +18,5 @@ int main()
     {
         printf("Not an alphabet\n");
     }
-
-}
+    }
 }
