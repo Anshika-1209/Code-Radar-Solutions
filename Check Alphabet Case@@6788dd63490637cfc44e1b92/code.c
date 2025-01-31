@@ -4,8 +4,6 @@ int main()
 {
     char ch;
     scanf("%c",&ch);
-    if(isalpha(ch))
-    {
     if(isupper(ch))
     {
         printf("Uppercase\n");
@@ -17,6 +15,5 @@ int main()
     else
     {
         printf("Not an alphabet\n");
-    }
     }
 }
