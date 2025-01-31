@@ -5,14 +5,14 @@ int main()
     scanf("%d%d%d", &a , &b , &c);
     if(a>=b && a>=c)
     {
-        printf("a");
+        printf("%d\n",a);
     }
     else if(b>=a && b>=c)
     {
-        printf("b");
+        printf("%d\n",b);
     }
     else if(c>=a && c>=b)
     {
-        printf("c");
+        printf("%d\n",c);
     }
 }
