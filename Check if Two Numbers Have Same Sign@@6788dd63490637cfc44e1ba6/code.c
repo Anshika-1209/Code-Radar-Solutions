@@ -3,11 +3,11 @@ int main()
 {
     int a,b;
     scanf("%d%d",&a,&b);
-    if(a==+ && b==+)
+    if(a==+(a) && b==+(b))
     {
         printf("Same Sign");
     }
-    else if(a==- && b==-)
+    else if(a==-(a) && b==-(b))
     {
         printf("Same Sign");
     }
