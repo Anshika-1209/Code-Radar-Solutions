@@ -16,9 +16,10 @@ int main()
                 if(a%i==0)
                 {
                 printf("Not Prime");
+                return 0;
             }
         }
-        printf("Prime\n");
+        printf("Prime");
     }
   }
 }
