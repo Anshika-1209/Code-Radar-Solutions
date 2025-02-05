@@ -13,7 +13,7 @@ int main()
     }
     else if(a==(a) && b==-(b))
     {
-        printf("Same Sign");
+        printf("Different Sign");
     }
     else
     {
