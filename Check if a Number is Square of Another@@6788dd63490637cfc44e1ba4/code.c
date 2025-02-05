@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<import math>
 int main() 
 {
     int a,b;
