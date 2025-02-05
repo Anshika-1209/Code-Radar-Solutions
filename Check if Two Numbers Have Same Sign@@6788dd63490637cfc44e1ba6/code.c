@@ -3,17 +3,9 @@ int main()
 {
     int a,b;
     scanf("%d%d",&a,&b);
-    if(a==+(a) && b==+(b))
+    if(a>0 && b>0 || a<0 && b<0)
     {
         printf("Same Sign");
-    }
-    else if(a==-(a) && b==(b))
-    {
-        printf("Same Sign");
-    }
-    else if(a==(a) && b==-(b))
-    {
-        printf("Different Sign");
     }
     else
     {
