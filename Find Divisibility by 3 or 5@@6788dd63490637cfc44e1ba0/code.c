@@ -11,4 +11,8 @@ int main()
     {
         printf("Divisible by 3");
     }
+    else
+    {
+        printf("Divisible by 5");
+    }
 }
