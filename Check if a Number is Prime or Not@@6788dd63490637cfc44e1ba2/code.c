@@ -5,7 +5,7 @@ int main()
     scanf("%d",&a);
     if(a>0)
     {
-        if(a%2==0)
+        if(a%1==0)
         {
             printf("Prime");
         }
