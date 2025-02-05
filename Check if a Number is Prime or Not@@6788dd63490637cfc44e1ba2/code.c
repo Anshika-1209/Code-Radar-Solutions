@@ -7,11 +7,11 @@ int main()
     {
         if(a%1==0)
         {
-            printf("Prime");
+            printf(" Not Prime");
         }
         else
         {
-            printf("Not Prime");
+            printf("Prime");
         }
     }
   
