@@ -7,7 +7,11 @@ int main()
     {
         printf("Same Sign");
     }
-    else if(a==-(a) && b==-(b))
+    else if(a==-(a) && b==(b))
+    {
+        printf("Same Sign");
+    }
+    else if(a==(a) && b==-(b))
     {
         printf("Same Sign");
     }
