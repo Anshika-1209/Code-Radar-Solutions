@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int a;
+    int a,i;
     scanf("%d",&a);
     if(a>0)
     {
         if(a<=1)
         {
-            printf(" Not Prime");
+            printf("Not Prime");
         }
         else
         {
