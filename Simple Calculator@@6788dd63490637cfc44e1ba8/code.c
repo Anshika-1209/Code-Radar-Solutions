@@ -20,11 +20,11 @@ int main()
         printf("%d",result);
     }
     else if(ch=='/')
-    {
+    
         if(b!=0){
         result=a/b;
         printf("%d",result);}
-    }
+    
     else
     {
         printf("error");
