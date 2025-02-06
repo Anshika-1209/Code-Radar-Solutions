@@ -2,12 +2,29 @@
 int main()
 {
     int a,b;
-    char operator;
+    char ch;
     scanf("%d%d",&a,&b);
-    scanf("%c",&operator);
-    printf(" ");
-    else
+    scanf("%c",&ch);
+    if(ch=='+')
+    {
+        printf("%d",a+b);
+    }
+   
+    else if(ch=='-')
+    {
+        printf("%d",a-b);
+    }
+    else if(ch=='*')
+    {
+        printf("%d",a*b);
+    } 
+    else if(ch=='/')
+    {
+        printf("%d",a/b);
+    } 
+    else 
     {
         printf("Error");
     }
+
 }
