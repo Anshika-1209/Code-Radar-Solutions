@@ -17,6 +17,6 @@ int main()
     }
     else if(ch=='!'||ch=='@'||ch=='#'||ch=='$'||ch=='%')
     {
-        printf("Special Digit");
+        printf("Special Character");
     }
 }
