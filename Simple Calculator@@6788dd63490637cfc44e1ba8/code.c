@@ -20,8 +20,11 @@ int main()
     } 
     else if(ch=='/')
     {
+        if(b!=0)
+        {
         printf("%d\n",a/b);
     } 
+    }
     else 
     {
         printf("Error");
