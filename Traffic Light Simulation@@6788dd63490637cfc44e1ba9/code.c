@@ -5,15 +5,15 @@ int main()
   scanf("%c,&ch");
   if(ch=='R')
   {
-    printf("Stop");
+    printf("Stop\n");
   }
   else if(ch=='G')
   {
-    printf("Go");
+    printf("Go\n");
   }
   else if(ch=='Y')
   {
-    printf("Slow Down");
+    printf("Slow Down\n");
   }
   else
   {
