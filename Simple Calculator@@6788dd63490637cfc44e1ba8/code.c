@@ -21,9 +21,9 @@ int main()
     }
     else if(ch=='/')
     {
-        b!=0;
+        if(b!=0){
         result=a/b;
-        printf("%d",result);
+        printf("%d",result);}
     }
     else
     {
