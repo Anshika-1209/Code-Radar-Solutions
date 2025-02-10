@@ -4,7 +4,6 @@ int main() {
     int N;
 
     // Get number of rows from the user
-    printf("Enter the number of rows: ");
     scanf("%d", &N);
 
     // Loop to print rows
