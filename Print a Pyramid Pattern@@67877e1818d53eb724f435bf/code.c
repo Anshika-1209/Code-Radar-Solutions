@@ -16,3 +16,9 @@ void printPyramid(int n) {
         printf("\n");
     }
 }
+
+int main() {
+    int n = 5;  // Number of levels in the pyramid
+    printPyramid(n);
+    return 0;
+}
