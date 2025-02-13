@@ -22,7 +22,6 @@ int main() {
     int n;
 
     // Ask user for the number of levels of the pyramid
-    printf("Enter the number of levels for the pyramid: ");
     scanf("%d", &n);  // Get user input for number of levels
 
     // Call the function to print the pyramid
