@@ -5,14 +5,9 @@ void printReverseTriangle(int n) {
     for (int i = n; i >= 1; i--) {
         // Print numbers starting from 1 up to the current row number i
         for (int j = 1; j <= i; j++) {
-            printf("%d ", j);  // Print the number in increasing order
+            printf("%d ", j);  // Print the number
         }
         
-        // Print numbers in reverse order starting from i-1 down to 1
-        for (int j = i - 1; j >= 1; j--) {
-            printf("%d ", j);  // Print the number in decreasing order
-        }
-
         // Move to the next line after each row
         printf("\n");
     }
@@ -29,4 +24,3 @@ int main() {
     
     return 0;
 }
-
