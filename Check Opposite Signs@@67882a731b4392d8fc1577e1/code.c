@@ -1,7 +1,7 @@
 #include <stdio.h>
 int checkOppositeSigns(int a, int b) {
     // If the product of a and b is negative, they have opposite signs
-    return (a < 0 && b >= 0) || (a > 0 && b < 0);
+    return (a < 0 && b > 0) || (a > 0 && b < 0);
 }
 int main() {
     int num1, num2;
