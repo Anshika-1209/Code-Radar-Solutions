@@ -9,9 +9,9 @@ int main() {
     scanf("%d %d", &num1, &num2);
     
     if (checkOppositeSigns(num1, num2)) {
-        printf("The two numbers have opposite signs.\n");
+        printf("True.\n");
     } else {
-        printf("The two numbers do not have opposite signs.\n");
+        printf("False\n");
     }
     
     return 0;
