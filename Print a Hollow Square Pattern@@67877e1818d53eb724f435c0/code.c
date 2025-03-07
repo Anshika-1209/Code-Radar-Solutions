@@ -15,7 +15,6 @@ void printHollowSquare(int N) {
 int main() {
     int N;
     // Take input for side length N
-    printf("Enter the side length of the square: ");
     scanf("%d", &N);
     // Call the function to print hollow square
     printHollowSquare(N);
