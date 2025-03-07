@@ -13,5 +13,8 @@ int main() {
 
     // Take input for number of rows N
     scanf("%d", &N);
-    // Call the function to print the numeric triang
+    // Call the function to print the numeric print numeric triangle
+    printNumericTriangle(N);
+    return 0;
+
 }
