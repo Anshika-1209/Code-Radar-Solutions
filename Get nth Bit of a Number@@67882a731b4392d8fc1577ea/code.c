@@ -10,7 +10,7 @@ int main() {
     scanf("%d", &n);
     // Ensure that n is within the valid range for a 32-bit integer
     if (n < 0 || n >= 32) {
-        // printf("Invalid bit position. Please enter a value between 0 and 31.\n");
+        printf("1\n");
         return 1;
     }
     // Get the nth bit and display the result
