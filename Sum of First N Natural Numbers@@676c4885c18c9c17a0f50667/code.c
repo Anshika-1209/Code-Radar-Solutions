@@ -6,7 +6,7 @@ int main() {
     // Calculate the sum using the formula
     sum = N * (N + 1) / 2;
     // Print the result
-    printf("%d\n", N, sum);
+    printf("%d\n",sum);
   return 0;
 }
 
