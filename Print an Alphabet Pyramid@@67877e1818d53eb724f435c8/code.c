@@ -9,6 +9,7 @@ int main() {
         for (int j = 1; j <= rows - i; j++) {
             printf(" ");
         }
+    }
 
         // Print alphabets in the current row
     for (char ch = 'A'; ch < 'A' + i; ch++) {
