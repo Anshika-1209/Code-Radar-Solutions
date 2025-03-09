@@ -11,9 +11,9 @@ int main() {
     
     // Check if MSB is set and display the result
     if (checkMSB(num)) {
-        printf("MSB is set (1).\n");
+        printf("Set\n");
     } else {
-        printf("MSB is not set (0).\n");
+        printf("Not Set\n");
     }
     
     return 0;
