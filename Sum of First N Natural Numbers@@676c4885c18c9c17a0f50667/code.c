@@ -1,15 +1,13 @@
 #include <stdio.h>
 int main() {
-    int N, sum = 0;
+    int N;
+    int sum;
     scanf("%d", &N);
-
-    // Loop to calculate the sum of the first N natural numbers
-    for (int i = 1; i <= N; i++) {
-        sum=sum+i;  // Add the current number to sum
-    }
+    // Calculate the sum using the formula
+    sum = N * (N + 1) / 2;
     // Print the result
-    printf("%d\n",N,sum);
-
-    return 0;
+    printf("The sum of the first %d natural numbers is: %d\n", N, sum);
+  return 0;
 }
+
 
