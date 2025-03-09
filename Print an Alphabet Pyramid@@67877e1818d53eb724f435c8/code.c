@@ -16,7 +16,7 @@ int main() {
 
         // Print alphabets in the current row
         for (char ch = 'A'; ch < 'A' + i; ch++) {
-            printf("%c ", ch);
+            printf(" %c ", ch);
         }
 
         // Move to the next line after each row
