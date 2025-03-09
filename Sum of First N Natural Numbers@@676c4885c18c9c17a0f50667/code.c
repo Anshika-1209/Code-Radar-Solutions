@@ -7,9 +7,9 @@ int main() {
     for (int i = 1; i <= N; i++) {
         sum += i;  // Add the current number to sum
     }
-
     // Print the result
-    printf("%d\n", N, sum);
+    printf("%d\n",N,sum);
 
     return 0;
 }
+
