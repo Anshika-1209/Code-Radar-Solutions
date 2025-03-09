@@ -10,7 +10,7 @@ int main() {
     for (int i = 1; i <= rows; i++) {
         // Print leading spaces for centering
         for (int j = 1; j <= rows - i; j++) {
-            printf("");
+            printf(" ");
         }
 
         // Print alphabets in the current row
