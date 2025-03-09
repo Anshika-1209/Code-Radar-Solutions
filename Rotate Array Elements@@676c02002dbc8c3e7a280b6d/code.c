@@ -47,8 +47,8 @@ int main() {
     // Print the rotated array
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
+    printf("\n");
     }
-    printf("\t");
 
     return 0;
 }
