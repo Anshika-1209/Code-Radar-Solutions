@@ -25,7 +25,7 @@ int main() {
     if (position == 0) {
         printf("1\n");
     } else {
-        printf("%d\n",0);
+        printf("%d\n",0||1);
     }
 
     return 0;
