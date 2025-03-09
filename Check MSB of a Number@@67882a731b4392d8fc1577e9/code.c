@@ -7,7 +7,6 @@ int main() {
     int num;
     
     // Take input from the user
-    printf("Enter a number: ");
     scanf("%d", &num);
     
     // Check if MSB is set and display the result
