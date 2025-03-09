@@ -23,7 +23,7 @@ int main() {
     
     // Display the result
     if (position == 0) {
-        printf("0\n");
+        printf("1\n");
     } else {
         printf("%d\n", position);
     }
