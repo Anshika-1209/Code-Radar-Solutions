@@ -26,7 +26,6 @@ int findFirstPeak(int arr[], int n) {
     return -1;
 }
 int main() {
-    int arr[] = {1, 3, 20, 4, 1, 0};  // Example array
     int n = sizeof(arr) / sizeof(arr[0]);
 
     int peak = findFirstPeak(arr, n);
