@@ -1,12 +1,10 @@
 #include <stdio.h>
-
 // Function to find the first peak element in the array
 int findFirstPeak(int arr[], int n) {
-    // Handle boundary conditions
+    // Handle edge case when there is only one element
     if (n == 1) {
-        return arr[0];  // If there is only one element, it is the peak.
-    }
-    
+        return arr[0];
+    } 
     // Check if the first element is a peak
     if (arr[0] > arr[1]) {
         return arr[0];
@@ -24,10 +22,9 @@ int findFirstPeak(int arr[], int n) {
         }
     }
 
-    // If no peak element is found, return -1
+    // If no peak is found, return -1
     return -1;
 }
-
 int main() {
     int arr[] = {1, 3, 20, 4, 1, 0};  // Example array
     int n = sizeof(arr) / sizeof(arr[0]);
