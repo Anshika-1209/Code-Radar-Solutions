@@ -34,6 +34,5 @@ int main() {
     // Call function to count leading zeros and remaining bits
     countLeadingZerosAndRemainingBits(num);
     
-    return 0;
 }
 
