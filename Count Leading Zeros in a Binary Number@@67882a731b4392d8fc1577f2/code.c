@@ -1,13 +1,12 @@
 #include <stdio.h>
-
 // Function to count leading zeros and remaining bits in a 32-bit integer
 void countLeadingZerosAndRemainingBits(unsigned int num) {
     int leadingZeros = 0;
     
     // If num is zero, all 32 bits are zeros
     if (num == 0) {
-        // leadingZeros = 32;
-        printf("%d\n", leadingZeros);
+        leadingZeros = 32;
+        printf("%d %d\n", leadingZeros, 0);
         return;
     }
     
@@ -22,12 +21,14 @@ void countLeadingZerosAndRemainingBits(unsigned int num) {
     // The remaining bits are those that represent the number, which is always 32 - leadingZeros
     int remainingBits = 32 - leadingZeros;
     
-    // Print leading zeros and the remaining bits count
-    printf("%d\n", remainingBits);  // Only print the remaining bits count
+    // Print the leading zeros and remaining bits count
+    printf("%d %d\n", leadingZeros, remainingBits);
 }
 
 int main() {
     unsigned int num;
+    
+    // Input number
     scanf("%u", &num);
     
     // Call function to count leading zeros and remaining bits
@@ -35,3 +36,4 @@ int main() {
     
     return 0;
 }
+
