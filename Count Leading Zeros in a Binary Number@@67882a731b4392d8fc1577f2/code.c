@@ -6,7 +6,7 @@ void countLeadingZerosAndRemainingBits(unsigned int num) {
     
     // If num is zero, all 32 bits are zeros
     if (num == 0) {
-        leadingZeros = 32;
+        // leadingZeros = 32;
         printf("%d\n", leadingZeros);
         return;
     }
