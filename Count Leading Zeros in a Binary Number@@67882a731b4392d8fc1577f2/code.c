@@ -23,7 +23,7 @@ int main() {
     int leadingZeros = countLeadingZeros(num);
     
     // Output the result
-    printf("%d\n", num, leadingZeros);
+    printf("%u:%d\n", num, leadingZeros);
     
     return 0;
 }
