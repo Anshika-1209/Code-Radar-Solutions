@@ -22,7 +22,7 @@ void countLeadingZerosAndRemainingBits(unsigned int num) {
     int remainingBits = 32 - leadingZeros;
     
     // Print the leading zeros and remaining bits count
-    printf("%d %d\n", leadingZeros, remainingBits);
+    printf("%d %d\n",  remainingbits);
 }
 
 int main() {
