@@ -14,7 +14,7 @@ int main() {
     int bit = getNthBit(num, n);
     
     // Output the result
-    printf("%d   %d is: %d\n", n, num, bit);
+    printf("%d\n", n, num, bit);
     
     return 0;
 }
