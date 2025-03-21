@@ -21,8 +21,8 @@ int main() {
     }
 
     // Output the results
-    printf("%d\n", evenCount);
-    printf(" %d\n", oddCount);
+    printf("%d", evenCount);
+    printf(" %d", oddCount);
 
     return 0;
 }
