@@ -44,7 +44,7 @@ int main() {
 
     // Output the result
     if (result == -1) {
-        printf("\n");
+        printf("-1\n");
     } else {
         printf("%d\n", result);
     }
