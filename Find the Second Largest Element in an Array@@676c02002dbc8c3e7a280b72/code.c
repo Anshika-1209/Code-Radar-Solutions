@@ -29,11 +29,12 @@ int main() {
     // Output the second largest element, or -1 if it doesn't exist
     if (secondLargest == -1) {
         printf("-1\n");
-    } else {
-        printf("%d\n", secondLargest);
     }
     else if (secondLargest ==-20) {
         printf("-20\n");
+    }
+    else {
+        printf("%d\n", secondLargest);
     }
 
     return 0;
