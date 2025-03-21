@@ -22,7 +22,7 @@ int main() {
                 }
             }
             // Print the element and its frequency
-            printf(" %d  %d \n", arr[i], count);
+            printf(" %d %d \n", arr[i], count);
         }
     }
 
