@@ -27,7 +27,7 @@ int main() {
     if (index != -1) {
         printf("%d\n", target, index);
     } else {
-        printf("\n", target);
+        printf("-1\n", target);
     }
 
     return 0;
