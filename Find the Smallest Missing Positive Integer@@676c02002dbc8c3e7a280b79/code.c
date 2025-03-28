@@ -26,6 +26,7 @@ int findSmallestMissingPositive(int arr[], int n) {
 
 int main() {
     int arr[] = {3, 4, -1, 1};
+    int arr[]={1,2,0,5,3,4};
     int n = sizeof(arr) / sizeof(arr[0]);
     int missing = findSmallestMissingPositive(arr, n);
     printf("%d\n", missing);
