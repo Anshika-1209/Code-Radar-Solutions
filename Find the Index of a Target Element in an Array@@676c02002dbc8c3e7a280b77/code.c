@@ -10,18 +10,14 @@ int findIndex(int arr[], int size, int target) {
 
 int main() {
     int size, target;
-    
-    printf("Enter the size of the array: ");
     scanf("%d", &size);
     
     int arr[size];
     
-    printf("Enter %d elements:\n", size);
+    printf("%d:\n", size);
     for (int i = 0; i < size; i++) {
         scanf("%d", &arr[i]);
     }
-    
-    printf("Enter the target element to find: ");
     scanf("%d", &target);
     
     int index = findIndex(arr, size, target);
