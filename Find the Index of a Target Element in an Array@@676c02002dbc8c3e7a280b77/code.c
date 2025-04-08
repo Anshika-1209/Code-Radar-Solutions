@@ -23,7 +23,7 @@ int main() {
     int index = findIndex(arr, size, target);
     
     if (index != -1) {
-        printf("Element found at index: %d\n", index);
+        printf("%d\n", index);
     } else {
         printf("Element not found in the array.\n");
     }
