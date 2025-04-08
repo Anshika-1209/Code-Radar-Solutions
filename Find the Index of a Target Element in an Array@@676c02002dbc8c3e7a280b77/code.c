@@ -23,7 +23,7 @@ int main() {
     if (index != -1) {
         printf("%d\n", index);
     } else {
-        printf("Element not found in the array.\n");
+        printf("-1\n");
     }
     
     return 0;
