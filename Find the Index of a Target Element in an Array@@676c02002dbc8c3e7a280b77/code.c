@@ -1,34 +1,36 @@
 #include <stdio.h>
-
-int findTargetIndex(int arr[], int n, int target) {
-    // Loop through the array to find the target element
-    for (int i = 0; i < n; i++) {
+int findIndex(int arr[], int size, int target) {
+    for (int i = 0; i < size; i++) {
         if (arr[i] == target) {
-            return i;  // Return the index of the first occurrence
+            return i; // Return first occurrence index
         }
     }
-    return -1;  // If target is not found, return -1
+    return -1; // Return -1 if not found
 }
 
 int main() {
-    int n, target;
-    scanf("%d", &n);
-
-    int arr[n];
-    for (int i = 0; i < n; i++) {
+    int size, target;
+    
+    printf("Enter the size of the array: ");
+    scanf("%d", &size);
+    
+    int arr[size];
+    
+    printf("Enter %d elements:\n", size);
+    for (int i = 0; i < size; i++) {
         scanf("%d", &arr[i]);
     }
+    
+    printf("Enter the target element to find: ");
     scanf("%d", &target);
-
-    // Call the function to find the target element's index
-    int index = findTargetIndex(arr, n, target);
-
-    // Output the result
+    
+    int index = findIndex(arr, size, target);
+    
     if (index != -1) {
-        printf("%d\n", target, index);
+        printf("Element found at index: %d\n", index);
     } else {
-        printf("-1\n", target);
+        printf("Element not found in the array.\n");
     }
-
+    
     return 0;
 }
