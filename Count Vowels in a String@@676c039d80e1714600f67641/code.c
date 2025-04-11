@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>  // For tolower()
-
+#include<string.h>
 int countVowels(char str[]) {
     int count = 0;
     
